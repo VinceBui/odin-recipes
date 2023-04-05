@@ -1,7 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+:root {
+    --bg: #E8F4F0;
+
+}
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    /* margin: 0;
+    padding: 0; */
+}
 * {
     text-align: center;
     font-family: 'Sono', sans-serif;
+    font-size: 20px;
+    
+}
+body {
+    
+    margin: 20px auto;
+    background-color: var(--bg);
 }
 img {
     width: 500px;
@@ -10,5 +31,23 @@ img {
 hr {
     width: 600px;
     color: lightblue;
-
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.container > a > img {
+    width: 140px;
+    height: auto;
+}
+.container > .nav-bar {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.content {
+    margin-top: 100px;
 }
