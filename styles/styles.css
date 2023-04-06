@@ -32,22 +32,6 @@ hr {
     width: 600px;
     color: lightblue;
 }
-.container {
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-    justify-content: space-between;
-    margin: 0 20px;
-}
-.container > a > img {
-    width: 140px;
-    height: auto;
-}
-.container > .nav-bar {
-    display: flex;
-    width: 300px;
-    justify-content: space-around;
-}
-.content {
-    margin-top: 100px;
+h1 {
+    font-size: 30px;
 }

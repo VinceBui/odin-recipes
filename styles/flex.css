@@ -3,7 +3,7 @@
     flex-direction: row;
     flex: auto;
     justify-content: space-between;
-    margin: 0 20px;
+    margin: 30px 20px;
 }
 .container > a > img {
     width: 140px;
@@ -14,6 +14,26 @@
     width: 300px;
     justify-content: space-around;
 }
-.content {
+/* .content {
     margin-top: 100px;
+} */
+.recipe-pic {
+    width: 250px;
+    height: 250px;
+}
+
+.recipes-container {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 20px;
+    flex: auto;
+
+}
+.recipes-container .recipe-home {
+    width: 280px;
+    
+}
+.recipe-name {
+    font-size: 18px;
 }
