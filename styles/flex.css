@@ -1,9 +1,10 @@
 .container {
     display: flex;
+    width: 95%;
     flex-direction: row;
     flex: auto;
     justify-content: space-between;
-    margin: 30px 20px;
+    margin: 30px auto;
 }
 .container > a > img {
     width: 140px;
